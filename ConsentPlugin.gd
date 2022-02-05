@@ -97,4 +97,5 @@ func consent_form_closed(consent_status, _user_prefers_ad_free):
 
 func consent_form_error(error_description):
 	print("GDPR "+error_description)
+	# error_description is usually "user consent not required" when user not in europe, so I load personalized ads
 	root.load_ads()
