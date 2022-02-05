@@ -79,7 +79,7 @@ func obtain_consent():
 
 func consent_form_loaded():
 	print("GDPR consent form loaded")
-	# don't show for children under 13
+	# don't show to children under 13
 	if age > 12:
 		consent.showConsentForm()
 	else:
