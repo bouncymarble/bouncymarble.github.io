@@ -47,7 +47,7 @@ func configure_admob_non_personalized():
 	root.admob.init()
 	root.load_ads()
   	# c_updategdpr is a button hidden by default for non european users
-	p_options.c_updategdpr.show() # will show for european user to update their choice
+	p_options.c_updategdpr.show() # will be visible for european user in case they want to update their choice
 
 
 func configure_admob_personalized():
@@ -56,7 +56,7 @@ func configure_admob_personalized():
 	root.admob.init()
 	root.load_ads()
 	# c_updategdpr is a button hidden by default for non european users
-	p_options.c_updategdpr.show() # will show for european user to update their choice
+	p_options.c_updategdpr.show() # will be visible for european user in case they want to update their choice
 
 
 func failed_to_update_consent_information(error_description):
