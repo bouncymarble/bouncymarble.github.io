@@ -1,7 +1,7 @@
 extends Node
 
 onready var root = get_parent() # main scene
-onready var p_options = root.get_node("HUD2/Options")
+onready var p_options = root.get_node("HUD2/Options") # settings panel of my app
 
 enum CONSENT_STATUS {
 	UNKNOWN,
