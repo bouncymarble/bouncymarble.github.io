@@ -46,7 +46,7 @@ func configure_admob_non_personalized():
 	root.admob.is_personalized = false
 	root.admob.init()
 	root.load_ads()
-  # c_updategdpr is a button hidden by default for non european users
+  	# c_updategdpr is a button hidden by default for non european users
 	p_options.c_updategdpr.show() # will show for european user to update their choice
 
 
