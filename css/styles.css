@@ -1559,7 +1559,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #000000;
 	}
 
 	.navbar-custom.top-nav-collapse {
