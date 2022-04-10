@@ -1449,7 +1449,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background: linear-gradient(to bottom right, #2c1a7e, #5557db);
+	background: linear-gradient(to bottom right, #738cff, #738cff);
 	text-align: center;
 }
 
@@ -1578,7 +1578,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #000000;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1743,7 +1743,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #00c9db;
+		color: #000000;
 		transition: all 0.2s ease;
 	}
 	
@@ -1757,7 +1757,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color: #000000;
 	}
 	/* end of navigation */
 
