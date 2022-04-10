@@ -121,9 +121,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #000;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #000;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -1559,7 +1559,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #000000;
+		color: #000;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -1578,7 +1578,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #000000;
+		color: #000;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1743,7 +1743,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #000000;
+		color: #000;
 		transition: all 0.2s ease;
 	}
 	
@@ -1757,7 +1757,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #000000;
+		color: #000;
 	}
 	/* end of navigation */
 
