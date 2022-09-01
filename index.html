@@ -263,15 +263,10 @@
             </div>
             <div class="row">
               <div class="col-lg-6 offset-lg-3">
-                <form action="#" method="post" id="contactForm" data-toggle="validator" data-focus="false">
+                <form action="mailto:bouncymarble@outlook.com?subject=$csubject &message= $cmessage" method="post" id="contactForm" data-toggle="validator" data-focus="false">
                   <div class="form-group">
-                    <input type="text" class="form-control-input" id="cname" required="">
-                    <label class="label-control" for="cname">Name</label>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control-input" id="cemail" required="">
-                    <label class="label-control" for="cemail">Email</label>
+                    <input type="text" class="form-control-input" id="csubject" required="">
+                    <label class="label-control" for="csubject">Subject</label>
                     <div class="help-block with-errors"></div>
                   </div>
                   <div class="form-group">
@@ -280,10 +275,7 @@
                     <div class="help-block with-errors"></div>
                   </div>
                   <div class="form-group">
-                    <a href=mailto:bouncymarble@outlook.com?subject="Support">Click here to send an email!</a>
-                    <a href=mailto:bouncymarble@outlook.com?subject="Support">
-                        <button class="form-control-submit-button">SUBMIT MESSAGE</button>
-                    </a>
+                    <button type="post" class="form-control-submit-button">SUBMIT MESSAGE</button>
                   </div>
                   <div class="form-message">
                     <div id="cmsgSubmit" class="h3 text-center hidden"></div>
